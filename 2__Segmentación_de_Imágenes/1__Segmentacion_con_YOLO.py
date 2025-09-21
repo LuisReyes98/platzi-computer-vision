@@ -1,10 +1,10 @@
 # pip install ultralytics
 
-import cv2
 import time
+
+import cv2
 import numpy as np
 from ultralytics import YOLO
-
 
 # Cargar el modelo YOLOv11 para segmentación (o de tener descargado 'yolo11n-seg.pt')
 model = YOLO("yolo11n-seg")
